@@ -1,0 +1,41 @@
+.header_body {
+    width: 100vw;
+    height: 150px;
+    background-color: #31CEBA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_container {
+    height: 80px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+
+.currency_list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2bb8a5;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.currency_list li {
+    margin: 5px 5px 5px 5px;
+}
+
+.currency_title {
+    margin-right: 50px;
+}
+
+.currency_title p {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
